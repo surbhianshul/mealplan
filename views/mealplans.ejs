@@ -1,0 +1,116 @@
+<%- include("partials/header"); -%>
+<h1>YOUR 7-DAY MEAL PLANNER</h1>
+<form action="/mealplans" method="post" name="tabledata">
+<div class="table-responsive">
+<table id="myTable" class="table  table-hover table-lg" name="myTable"  >
+<thead class="table-dark">
+    <tr class="table-active">
+        <th scope="col" colspan="" class="weeknames">Time/Weekday</th>
+        <th scope="col" class="weeknames">MONDAY</th>
+        <th scope="col" class="weeknames">TUESDAY</th>
+        <th scope="col" class="weeknames">WEDNESDAY</th>
+        <th scope="col" class="weeknames">THURSDAY</th>
+        <th scope="col" class="weeknames">FRIDAY</th>
+        <th scope="col" class="weeknames">SATURDAY</th>
+        <th scope="col" class="weeknames">SUNDAY</th>
+    </tr>
+</thead>
+<tbody class="table-group-divider" >
+    
+
+    
+    <!-- early morning -->
+    <tr class="table-primary" id="early-morning" name="earlymorning">
+        <th scope="row" class="daylabel table-active" name="data[0][name]">Early Morning (8.00)</th>
+        <td contenteditable="true"><input type="text" name="data[1][name]" val></td>
+        <td contenteditable="true"><input type="text" name="data[2][name]"></td>
+        <td contenteditable="true"><input type="text" name="data[3][name]"></td>
+        <td contenteditable="true"><input type="text" name="data[4][name]"></td>
+        <td contenteditable="true"><input type="text" name="data[5][name]"></td>
+        <td contenteditable="true"><input type="text" name="data[6][name]"></td>
+        <td contenteditable="true"><input type="text" name="data[7][name]"></td>
+    </tr>
+    
+    <!-- breakfast  -->
+    <tr  class="table-success" id="breakfast" name="breakfast">
+        <th scope="row" class="table-active">Breakfast (10.00)</th>
+        <td contenteditable="true"><input type="text" name="data[8][name]" val></td>
+        <td contenteditable="true"><input type="text" name="data[9][name]"></td>
+        <td contenteditable="true"><input type="text" name="data[10][name]"></td>
+        <td contenteditable="true"><input type="text" name="data[11][name]"></td>
+        <td contenteditable="true"><input type="text" name="data[12][name]"></td>
+        <td contenteditable="true"><input type="text" name="data[13][name]"></td>
+        <td contenteditable="true"><input type="text" name="data[14][name]"></td>
+    </tr>
+    <!-- mid morning -->
+    <tr class="table-danger" id="mid-morning" name="midmorning">
+        <th scope="row" class="table-active">Mid Morning (11.30)</th>
+        <td contenteditable="true"><input type="text" name="data[15][name]" val></td>
+        <td contenteditable="true"><input type="text" name="data[16][name]"></td>
+        <td contenteditable="true"><input type="text" name="data[17][name]"></td>
+        <td contenteditable="true"><input type="text" name="data[18][name]"></td>
+        <td contenteditable="true"><input type="text" name="data[19][name]"></td>
+        <td contenteditable="true"><input type="text" name="data[20][name]"></td>
+        <td contenteditable="true"><input type="text" name="data[21][name]"></td>
+    </tr>
+    <!-- lunch -->
+    <tr class="table-warning" id="lunch" name="lunch">
+        <th scope="row"class="table-active" >Lunch (1.00)</th>
+        <td contenteditable="true"><input type="text" name="data[22][name]" val></td>
+        <td contenteditable="true"><input type="text" name="data[23][name]"></td>
+        <td contenteditable="true"><input type="text" name="data[24][name]"></td>
+        <td contenteditable="true"><input type="text" name="data[25][name]"></td>
+        <td contenteditable="true"><input type="text" name="data[26][name]"></td>
+        <td contenteditable="true"><input type="text" name="data[27][name]"></td>
+        <td contenteditable="true"><input type="text" name="data[28][name]"></td>
+    </tr>
+    <!-- afternoon -->
+    <tr class="table-light" id="afternoon-snack" name="afternoonsnack">
+        <th scope="row"class="table-active" >Afternoon Sanck (4.00)</th>
+        <td contenteditable="true"><input type="text" name="data[29][name]" val></td>
+        <td contenteditable="true"><input type="text" name="data[30][name]"></td>
+        <td contenteditable="true"><input type="text" name="data[31][name]"></td>
+        <td contenteditable="true"><input type="text" name="data[32][name]"></td>
+        <td contenteditable="true"><input type="text" name="data[33][name]"></td>
+        <td contenteditable="true"><input type="text" name="data[34][name]"></td>
+        <td contenteditable="true"><input type="text" name="data[35][name]"></td>
+    </tr>
+    <!-- evening  -->
+     <tr class="table-secondary" id="evening-snack" name="eveningsnack">
+        <th scope="row" class="table-active">Evening snack (6.00)</th>
+        <td contenteditable="true"><input type="text" name="data[36][name]" val></td>
+        <td contenteditable="true"><input type="text" name="data[37][name]"></td>
+        <td contenteditable="true"><input type="text" name="data[38][name]"></td>
+        <td contenteditable="true"><input type="text" name="data[39][name]"></td>
+        <td contenteditable="true"><input type="text" name="data[40][name]"></td>
+        <td contenteditable="true"><input type="text" name="data[41][name]"></td>
+        <td contenteditable="true"><input type="text" name="data[42][name]"></td>
+    </tr>
+    <!-- dinner -->
+    <tr class="table-info" id="dinner" name="dinner">
+        <th scope="row"class="table-active" >Dinner (8.00)</th>
+        <td contenteditable="true"><input type="text" name="data[43][name]" val></td>
+        <td contenteditable="true"><input type="text" name="data[44][name]"></td>
+        <td contenteditable="true"><input type="text" name="data[45][name]"></td>
+        <td contenteditable="true"><input type="text" name="data[46][name]"></td>
+        <td contenteditable="true"><input type="text" name="data[47][name]"></td>
+        <td contenteditable="true"><input type="text" name="data[48][name]"></td>
+        <td contenteditable="true"><input type="text" name="data[49][name]"></td>
+    </tr>
+   
+</tbody>
+</table>
+<div class="save">
+<button  class="btn btn-success savebutton" type="submit"  name="get-table-data">Save Your Chart</button>
+</div>
+</div>
+</form>
+
+
+
+
+
+
+
+
+<%- include("partials/footer"); -%>

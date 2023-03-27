@@ -1,0 +1,129 @@
+/* header page */
+#box1{
+   padding-bottom: 5%;
+    background-color: #7FB77E;
+   border-color: #638f62;
+    border-radius: 0;
+}
+.logotxt{
+    margin-top: 3%;
+    font-family: 'Dancing Script', cursive;
+    border-bottom-style: double;
+    font-size: 3rem;
+    color: #496c49;
+}
+/* navigation bar  */
+.navbar {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    
+}
+.txt{
+    position: relative;
+    top: 3rem;
+    bottom: 2rem;
+    right: 1rem;
+    list-style-type: none;
+    padding: 15px;
+    font-size:medium;
+    letter-spacing: .5rem;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+}
+.navbar-nav  li a:hover {
+    color: #2f472f !important;
+}
+a{
+    color: #496c49 !important;
+}
+
+
+/* body */
+.mid{
+    background-color: #C8FFD4;
+    min-height: 100vh;
+    border: solid;
+    border-color: #C8FFD4;
+}
+#middle{
+    padding: 5rem;
+    
+}
+.text{
+ text-align: left;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    color: #439A97;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 3rem;
+    padding: 2rem;
+    margin: 2rem;
+}
+.startbutton{
+    position: relative;
+    top: 0;
+    left: 3rem;
+}
+.img2{
+    width: 70%;
+    position: relative;
+    left: 10rem;
+border-radius: 5%;
+    margin: 2rem;
+
+}
+
+
+
+/* footer */
+.lastsection{
+    text-align: center;
+    background-color: #B6E388;
+    color: #496c49;
+    margin: 0;
+    padding: 0;  
+    border: solid;
+    border-color: #B6E388;
+}
+.ic{
+    padding: 1rem;
+}
+.l{
+    font-size: small;
+}
+.bt{
+    margin: 1rem;
+}
+
+/* table */
+H1{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+    color: #496c49;
+    letter-spacing: 1rem;
+    padding: 1rem;
+}
+table{
+    table-layout: fixed;
+    
+}
+tr{
+    height: 5rem;
+}
+.save{
+    text-align: center;
+}
+.savebutton{
+    padding: 1rem;
+    margin: 1rem;
+}
+
+
+
+
+
+
